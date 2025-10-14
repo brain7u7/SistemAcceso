@@ -1,0 +1,18 @@
+{
+    "database_file": "sistemaAcceso.db",
+    "json_files": {
+        "alumnos_no_inscritos": "alumnos_no_inscritos.json",
+        "profesores_no_validos": "profesores_no_validos.json",
+        "bloqueados": "bloqueados.json"
+    },
+    "modo_operacion": "hid",
+    "user_agent": "Mozilla/5.0 (compatible; ExtractorIPN/1.0)",
+    "gpio_pins": {
+        "pin_a": 6,
+        "pin_b": 13,
+        "sensor_abierto": 23,
+        "sensor_cerrado": 24
+    },
+    "limite_intentos": 3,
+    "tiempo_anti_rebote_seg": 5
+}
